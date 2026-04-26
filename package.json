@@ -1,0 +1,41 @@
+{
+  "name": "tokenmaxxing",
+  "version": "1.0.0",
+  "description": "A Claude Skill for engineers building AI-powered apps — audit prompts, design memory, route models, cache aggressively, validate output, and instrument every call.",
+  "license": "MIT",
+  "author": "Terry Threatt",
+  "keywords": [
+    "claude",
+    "claude-skill",
+    "anthropic",
+    "llm",
+    "tokens",
+    "prompt-engineering",
+    "prompt-caching",
+    "observability",
+    "ai-cost-optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerryThreatt/tokenmaxxing.git"
+  },
+  "type": "module",
+  "files": [
+    "SKILL.md",
+    "templates",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "zod": "^3.23.0"
+  }
+}
